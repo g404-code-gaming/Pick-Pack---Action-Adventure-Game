@@ -9,10 +9,10 @@ Notre personnage peut faire trois choses principales :
 
 ## Variables globales 
 
-Pour commencer, et en vus de préparer le suite du cours, nous devons créer quelques [](). 
+Pour commencer, et en vus de préparer le suite du cours, nous devons créer quelques [variables globales](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main/Variables.md). 
 Ces variables seront utiles pour les déplacements du personnage ou les gestions des dégâts. Nous en ajouterons d'autres par la suite. 
 
-(image 0)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/0_controle.JPG)
 
 ## Contrôle de la caméra 
 
@@ -22,7 +22,7 @@ Pour contrôler la caméra, nous allons ajouter une extension à notre projet :
 
 Ajoutez les extensions **Caméra 3D à la première personne** et **Verouillage du pointeur de la souris**.
 
-(image 1) 
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/1_controle.JPG)
 
 Ensuite, nous allons, dans les [évènements](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main/%C3%A9v%C3%A8nements.md), ajouter ce qu'il faut pour voir à travers les yeux du personnage, et également pour bouger la caméra lorsqu'on déplace la souris.
 
@@ -35,7 +35,7 @@ Ensuite, une fois que le pointeur est verouillé, il faut :
   (4) Faire tourner le personnage sur l'axe Y en fonction du mouvement du pointeur sur l'axe Y. 
   (5) pour éviter que le personnage puisse se retourner sur lui-même en regardant en l'air, on fixe des limites à l'axe Y.
 
-(image 2) 
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/2_controle.JPG)
 
 à l'ajout de chaque nouvelle action, teste le jeu pour comprendre leur fonction et anticiper les erreurs potentielles. 
 
@@ -47,7 +47,7 @@ Pour l'instant, notre personnage peut bouger les yeux, mais il reste bloqué dan
 
 Nous allons ajouter le [comportement](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main/Comportement.md) **3D physics character** pour permettre au personnage d'être affecté par la gravité.
 
-(image 3)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/3_controle.JPG)
 
 Désormais, nous avont un personnage qui est affecté par la gravité, mais cela le fait traverser les objets et tomber dans le vide. 
 Pour éviter cela, il faut ajouter le comportement **3D physics** à tout les objets qui servirons de décors (notammant les murs et le sol). 
@@ -56,7 +56,7 @@ Une fois que c'est fait, nous pouvons créer les évènements de déplacement du
 
 > Dans les jeux de tir à la première personne (FPS), les commandes de base pour se déplacer sont Z (avancer), S (reculer), Q (aller à gauche), D (aller à droite).
 
-(image 4)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/4_controle.JPG)
 
 Une fois que ces évènement sont terminés, le personnage peut se déplacer dans l'espace : notre jeu commence à prendre forme.
 
@@ -66,12 +66,12 @@ Un personnage qui se déplace, c'est bien, mais s'il peut sauter et courir, c'es
 
 Pour l'évènement de **saut**, rien de plus facile : il suffit de simuler un touche de saut lorsque le personnage appuie sur la barre Espace : 
 
-(image 5) 
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/5_controle.JPG)
 
 Pour la **course**, c'est un peu différent : lorsque l'on va appuyer sur la touche de course, cela va augmenter notre vitesse. 
 Il ne faut pas oublier de remettre la Variable Vitesse à sa valeur initiale lorsqu'on arrête d'appuyer sur la touche. 
 
-(image 6)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/6_controle.JPG)
 
 Désormais, les bases du mouvement sont faites ! Nous pouvons déplacer notre personnage dans l'espace de manière fluide, notammant grâce à la caméra et la course. 
 
