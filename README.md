@@ -1,4 +1,4 @@
-# Pick-Pack---Action-Adventure-Game
+# Pick-Pack-Action-Adventure-Game
 
 Jeu prévu pour le 3ᵉ trimestre de CodeGaming (1ʳᵉ année), **Pick&Pack** est un jeu d'action/aventure où l'on incarne un personnage qui évolue dans un monde 3D en quête de ressources, et affronte de nombreux dangers pour terminer le jeu.
 
