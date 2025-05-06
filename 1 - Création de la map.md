@@ -10,7 +10,7 @@ Puisque le jeu est en 3D, nous allons avoir besoin d’objets 3D. Une petite int
 
 Pour créer un objet à partir de zéro, nous savons déjà faire, mais les objets 3D sont un peu différents. Il s’agit d’un **cube** dont chaque face est une image : il faut créer les images de chaque face (idéalement, il faut créer/importer une seule image et la réutiliser plusieurs fois).
 
-(image 2)
+![rien](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/1_objet3D_2.JPG)
 
 Les objets simples serviront de **plateforme** ou de **mur**. Pour les objets plus complexes qu’un simple cube, nous devrons les chercher dans le magasin comme nous le faisons depuis le début.
 
