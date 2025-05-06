@@ -64,15 +64,17 @@ Une fois que ces évènement sont terminés, le personnage peut se déplacer dan
 
 Un personnage qui se déplace, c'est bien, mais s'il peut sauter et courir, c'est encore mieux ! 
 
-Pour l'évènement de saut, rien de plus facile : il suffit de simuler un touche de saut lorsque le personnage appuie sur la barre Espace : 
+Pour l'évènement de **saut**, rien de plus facile : il suffit de simuler un touche de saut lorsque le personnage appuie sur la barre Espace : 
 
 (image 5) 
 
-Pour la course, c'est un peu différent : lorsque l'on va appuyer sur la touche de course, cela va augmenter notre vitesse. 
+Pour la **course**, c'est un peu différent : lorsque l'on va appuyer sur la touche de course, cela va augmenter notre vitesse. 
 Il ne faut pas oublier de remettre la Variable Vitesse à sa valeur initiale lorsqu'on arrête d'appuyer sur la touche. 
 
 (image 6)
 
+Désormais, les bases du mouvement sont faites ! Nous pouvons déplacer notre personnage dans l'espace de manière fluide, notammant grâce à la caméra et la course. 
 
+[3 - interactions avec l'environnement - Partie 1]()
 
 
