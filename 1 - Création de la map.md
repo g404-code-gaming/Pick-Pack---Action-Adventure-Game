@@ -25,5 +25,5 @@ Pour notre jeu, nous aurons besoin des [objets](https://github.com/g404-code-gam
 
 Nous utiliserons d’autres objets plus tard dans le projet : nous les ajouterons lorsque le moment sera venu.
 
-[2 - Contrôle du personnage](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/tree/main)
+[2 - Contrôle du personnage](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/2%20-%20Contr%C3%B4le%20du%20personnage.md)
 
