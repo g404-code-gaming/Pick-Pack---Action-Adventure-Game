@@ -6,7 +6,7 @@ Dans le jeu Pick&Pack, le personnage possède des outils dont il peut se servir 
 
 Le personnage pourra changer d'arme pour utiliser celle qui lui semble la plus adaptée à la situation.
 
-(image 1)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/arme_1.JPG)
 
 ### Liste des éléments à ajouter
 
@@ -18,7 +18,7 @@ Il nous faut ajouter de nouveaux objets à notre scène. Pour simplifier les cho
 
 Il nous faut également ajouter de nouvelles variables : commençons par ajouter la variable globale des munitions maximales.
 
-(image 2)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/arme_2.JPG)
 
 Ensuite, il faut ajouter les variables du personnage. Il faut dissocier les variables de l'arme de mêlée et de celle de tir.  
   - **arme** : détermine l'arme que possède actuellement le joueur.  
@@ -27,7 +27,7 @@ Ensuite, il faut ajouter les variables du personnage. Il faut dissocier les vari
   - **Munition max** : les munitions que l'arme à distance peut contenir au maximum. Cette valeur sera égale à la variable globale Munition.  
   - **Munition** : les munitions actuelles de l'arme à distance. Quand elle tire, elle perd 1 munition, et ne peut pas tirer si elle en a 0.
 
-(image 3)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/arme_3.JPG)
 
 Pour finir, ajoutez un nouveau groupe d'objets : **Detruire**. Ce groupe contient tous les objets que vous pouvez détruire avec vos attaques. Ces objets doivent tous avoir une variable **PV** et une variable **Argent**.
 
@@ -40,13 +40,13 @@ Commençons par voir l'arme et permettre au joueur de changer d'arme.
 Dans un premier temps, ajoutez les objets d'armes et ceux des munitions sur l'interface. Si vous le souhaitez, vous pouvez également ajouter un réticule de visée au milieu de l'écran.  
 Pensez bien à rendre les armes invisibles au départ en modifiant l'opacité.
 
-(image 4)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/arme_4.JPG)
 
 Pour changer d'arme, nous allons utiliser la **molette de la souris**, comme dans beaucoup d'autres jeux FPS.  
   - Lorsque la molette monte vers le haut : on utilise l'arme à distance  
   - Lorsque la molette descend vers le bas : on utilise l'arme de mêlée
 
-(image 5)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/arme_5.JPG)
 
 Testez votre jeu pour voir si le changement d'arme se fait correctement.
 
@@ -56,24 +56,24 @@ Fondamentalement, les deux armes fonctionnent de la même manière : lorsque le 
 
 Pour gérer le fonctionnement de l'attaque, nous allons ajouter une extension **Raycaster**.
 
-(image 6)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/arme_6.JPG)
 
 L'extension permet de tracer une ligne entre la caméra et l'endroit vers lequel elle regarde. Elle permet aussi de détecter les objets qui sont sur la trajectoire, ce qui permet de savoir si on regarde un objet ou non.
 
 Ajoutez les évènements d'attaque.  
 On commence par l'attaque de mêlée, qui est plus simple à faire :
 
-(image 7)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/arme_7.JPG)
 
 Ensuite, on rajoute celle à distance : elle fonctionne de la même manière, mais consomme des munitions et ne peut pas tirer s’il n’y en a pas.
 
-(image 8)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/arme_8.JPG)
 
 ### Destruction d'un objet
 
 Nous venons de faire les attaques : elles enlèvent des points de vie aux objets de type **Detruire**. Désormais, nous voulons faire disparaître les objets lorsqu’ils n’ont plus de PV.
 
-(image 9)
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/arme_9.JPG)
 
 ### Interface
 
@@ -82,5 +82,5 @@ Afin qu’il sache combien de munitions il lui reste, mais aussi combien de muni
 
 > Le fait de coller plusieurs morceaux de texte les uns à la suite des autres pour ne former qu’un seul texte plus grand s’appelle la **concaténation**.
 
-(image 10) 
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/arme_10.JPG) 
 
