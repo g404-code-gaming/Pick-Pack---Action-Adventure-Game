@@ -29,11 +29,11 @@ Ensuite, nous allons, dans les [évènements](https://github.com/g404-code-gamin
 Pour utiliser le pointeur, il faut l'activer lorsque le joueur clique sur l'écran. C'est seulement lorsque le pointeur est activés que la caméra va suivre la vue du joueur : 
 
 Ensuite, une fois que le pointeur est verouillé, il faut : 
-  (1) Demander à la caméra de voir à travers les yeux du personnage. 
-  (2) Faire tourner le personnage en fonction de mouvement du pointeur sur l'axe X.
-  (3) On place la vue de la caméra à 2/3 de la hauteur du personnage pour donner l'impression de voir à travers ses yeux.
-  (4) Faire tourner le personnage sur l'axe Y en fonction du mouvement du pointeur sur l'axe Y. 
-  (5) pour éviter que le personnage puisse se retourner sur lui-même en regardant en l'air, on fixe des limites à l'axe Y.
+  - (1) Demander à la caméra de voir à travers les yeux du personnage. 
+  - (2) Faire tourner le personnage en fonction de mouvement du pointeur sur l'axe X.
+  - (3) On place la vue de la caméra à 2/3 de la hauteur du personnage pour donner l'impression de voir à travers ses yeux.
+  - (4) Faire tourner le personnage sur l'axe Y en fonction du mouvement du pointeur sur l'axe Y. 
+  - (5) pour éviter que le personnage puisse se retourner sur lui-même en regardant en l'air, on fixe des limites à l'axe Y.
 
 ![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/2_controle.JPG)
 
