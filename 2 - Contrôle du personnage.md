@@ -75,6 +75,6 @@ Il ne faut pas oublier de remettre la Variable Vitesse à sa valeur initiale lor
 
 Désormais, les bases du mouvement sont faites ! Nous pouvons déplacer notre personnage dans l'espace de manière fluide, notammant grâce à la caméra et la course. 
 
-[3 - interactions avec l'environnement - Partie 1]()
+[3 - interactions avec l'environnement - Partie 1](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/3%20-%20interaction%201%20%3A%20PV%20et%20danger)
 
 
