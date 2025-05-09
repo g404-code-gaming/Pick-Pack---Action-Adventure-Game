@@ -1,0 +1,45 @@
+# Point de vie et danger dans l'environnement
+
+Pour commencer à faire interagir notre personnage avec le monde qui l'entoure, nous allons ajouter un peu de difficulté en programmant la mort du personnage et la gestion de ses points de vie.
+
+## Lac d'acide 
+
+Le sol de la carte sera remplie d'acide : notre personnage est imédiatement tué si il tombe dans l'acide. Il suffit alors de recharger le niveau lorsque le personnage tombe dans l'acide : 
+
+(image 0) 
+
+C'est tout : maintenant, notre personnage meurre en tombant au delà de la plateforme de jeu. Nous pourrions déjà commencer à faire un petit niveau où le personnage doit avancer sans tomber, mais nous allons d'abord rajouter les points de vie.
+
+## Point de vie 
+
+Pour gérer toutes les caractéristiques du joueur qui sont propre au niveau, nous allons lui créer des [variables d'objets]().
+
+Pourquoi lui refaire des variables alors que nous avons créer des variables globales ? Parce que notre personnage va pouvoir évoluer d'un niveau à l'autre : nous avons donc besoin de dissocier les informations propre au niveau et celles qui vont être conservée en dehors du jeu.
+
+Ajoutez donc les variables suivantes sur le Personnage : 
+
+(image 1) 
+
+Ajouter un évènement au début du jeu pour initialiser toutes les variables du personnage en fonction des variables globales. 
+
+(image 2) 
+
+Maintenant, il faut rajouter les évènements qui nous font perdre des PV lorsqu'on subis des dégâts. Pour simplifier le programme, nous allons créer un groupe d'objet **Danger** qui contiendra tout les objets de la scène capable de nous faire des dégâts.
+
+(image 3)
+
+Pour chacun de ses objets, rajouter une variable d'objet **Dégât** : ce sera la quantité de Point de vie qu'ils enlèvent au personnage.
+
+Toutefois, nous ne pouvons pas utiliser la condition "Collision" classique, car elle ne fonctionne que sur les objets en 2D. Ajoutez une extension pour pouvoir gérer les collisions en 3D.
+
+(image 4)
+
+Désormais, nous avons tout ce qu'il faut pour rajouter les évènements des PV : 
+Créez un premier évènement pour reconnaître la collision avec un objet dangereux. Pour éviter que notre personnage ne subisse trop de dégât d'un coup, utilisez la variable **Invincible** comme condition : le personnage ne peut pas subir de dégât tant que cette variable n'est pas fausse. 
+Ensuite, un **Chronomètre** va servir à rendre le personnage vulnérable à nouveau. 
+Enfin, lorsque le personnage a 0 PV, il meurre et on retourne au début du jeu.
+
+(image 5) 
+
+
+
