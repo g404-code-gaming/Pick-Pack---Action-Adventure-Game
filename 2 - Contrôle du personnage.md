@@ -49,7 +49,7 @@ Nous allons ajouter le [comportement](https://github.com/g404-code-gaming/GDevel
 
 ![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/3_controle.JPG)
 
-Désormais, nous avont un personnage qui est affecté par la gravité, mais cela le fait traverser les objets et tomber dans le vide. 
+Désormais, nous avons un personnage qui est affecté par la gravité, mais cela le fait traverser les objets et tomber dans le vide. 
 Pour éviter cela, il faut ajouter le comportement **3D physics** à tout les objets qui servirons de décors (notammant les murs et le sol). 
 
 Une fois que c'est fait, nous pouvons créer les évènements de déplacement du personnage en fonction de la variable **Vitesse**: 
