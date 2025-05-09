@@ -78,7 +78,7 @@ Nous venons de faire les attaques : elles enlèvent des points de vie aux objets
 ### Interface
 
 Pour finir la partie sur l’arme, ajoutez l’évènement mettant à jour les munitions du joueur.  
-Afin qu’il sache combien de munitions il lui reste, mais aussi combien de munitions il peut avoir au maximum, nous utilisons les deux variables en même temps.
+Afin qu’il sache combien de munitions il lui reste, mais aussi combien de munitions il peut avoir au maximum, nous utilisons les deux variables en même temps : **Munition** + **Munition_max**.
 
 > Le fait de coller plusieurs morceaux de texte les uns à la suite des autres pour ne former qu’un seul texte plus grand s’appelle la **concaténation**.
 
