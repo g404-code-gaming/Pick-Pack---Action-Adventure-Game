@@ -35,9 +35,9 @@ Toutefois, nous ne pouvons pas utiliser la condition "Collision" classique, car 
 (image 4)
 
 Désormais, nous avons tout ce qu'il faut pour rajouter les évènements des PV :  
-Créez un premier évènement pour reconnaître la collision avec un objet dangereux. Pour éviter que notre personnage ne subisse trop de dégâts d'un coup, utilisez la variable **Invincible** comme condition : le personnage ne peut pas subir de dégâts tant que cette variable n’est pas fausse.  
-Ensuite, un **Chronomètre** va servir à rendre le personnage vulnérable à nouveau.  
-Enfin, lorsque le personnage a 0 PV, il meurt et on retourne au début du jeu.
+- Créez un premier évènement pour reconnaître la collision avec un objet dangereux. - Pour éviter que notre personnage ne subisse trop de dégâts d'un coup, utilisez la variable **Invincible** comme condition : le personnage ne peut pas subir de dégâts tant que cette variable n’est pas fausse.  
+- Ensuite, un **Chronomètre** va servir à rendre le personnage vulnérable à nouveau.  
+- Enfin, lorsque le personnage a 0 PV, il meurt et on retourne au début du jeu.
 
 (image 5) 
 
