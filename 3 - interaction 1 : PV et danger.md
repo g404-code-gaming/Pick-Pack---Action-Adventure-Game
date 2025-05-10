@@ -4,7 +4,11 @@ Pour commencer à faire interagir notre personnage avec le monde qui l'entoure, 
 
 ## Lac d'acide 
 
-Le sol de la carte sera rempli d'acide : notre personnage est immédiatement tué s'il tombe dans l'acide. Il suffit alors de recharger le niveau lorsque le personnage tombe dans l'acide :
+Pour gérer les collisions, nous ne pouvons pas utiliser la condition "Collision" classique, car elle ne fonctionne que sur les objets en 3D. Ajoutez une extension pour pouvoir gérer les collisions en 3D.
+
+![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/1_PV_4.JPG)
+
+Le sol de la carte sera rempli d'acide : notre personnage est immédiatement tué s'il tombe dans l'acide. Il suffit alors de recharger le niveau lorsque le personnage tombe dans l'acide.
 
 ![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/1_PV_0.JPG)
 
@@ -29,10 +33,6 @@ Maintenant, il faut rajouter les évènements qui nous font perdre des PV lorsqu
 ![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/1_PV_3.JPG)
 
 Pour chacun de ces objets, rajoutez une variable d'objet **Dégât** : ce sera la quantité de points de vie qu'ils enlèvent au personnage.
-
-Toutefois, nous ne pouvons pas utiliser la condition "Collision" classique, car elle ne fonctionne que sur les objets en 3D. Ajoutez une extension pour pouvoir gérer les collisions en 3D.
-
-![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/1_PV_4.JPG)
 
 Désormais, nous avons tout ce qu'il faut pour rajouter les évènements des PV :  
 - Créez un premier évènement pour reconnaître la collision avec un objet dangereux. - Pour éviter que notre personnage ne subisse trop de dégâts d'un coup, utilisez la variable **Invincible** comme condition : le personnage ne peut pas subir de dégâts tant que cette variable n’est pas fausse.  
