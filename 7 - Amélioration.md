@@ -25,3 +25,20 @@ Ensuite, créez les évènements permettant de cliquer sur les boutons pour ache
 
 [image 4]()
 
+## Intégration du Menu dans le niveau : la fin du jeu
+
+Pour la fin du jeu, nous allons utiliser une porte : lorsque le joueur regarde la porte en étant proche d'elle, cela lui fait finir le niveau. 
+
+Le but du jeu est d'atteindre cette porte. 
+
+[image 5]()
+
+Ajoutez le code permettant d'ouvrir la porte et de terminer le niveau. Il ne faut pas oublier de désactiver le pointeur et de mettre à jour les variables d'argent et de niveau.
+
+[image 6]()
+
+Avec tout ça, nous avons désormais un Menu fonctionnel dans lequel nous pouvons améliorer notre personnage. 
+
+Tester différentes améliorations avant de passer à la suite. 
+
+
