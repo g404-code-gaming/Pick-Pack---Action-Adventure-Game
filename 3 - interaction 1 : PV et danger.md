@@ -4,7 +4,7 @@ Pour commencer à faire interagir notre personnage avec le monde qui l'entoure, 
 
 ## Lac d'acide 
 
-Pour gérer les collisions, nous ne pouvons pas utiliser la condition "Collision" classique, car elle ne fonctionne que sur les objets en 3D. Ajoutez une extension pour pouvoir gérer les collisions en 3D.
+Pour gérer les collisions, nous ne pouvons pas utiliser la condition "Collision" classique, car elle ne fonctionne pas sur les objets en 3D. Ajoutez une extension pour pouvoir gérer les collisions en 3D.
 
 ![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/1_PV_4.JPG)
 
