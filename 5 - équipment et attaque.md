@@ -84,3 +84,12 @@ Afin qu’il sache combien de munitions il lui reste, mais aussi combien de muni
 
 ![image](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/arme_10.JPG) 
 
+### Bonus - Visuel et son 
+
+Ajoutez un moyen de reconnaître lorsque le joueur touche une cible avec une attaque. 
+Par exemple : 
+  - Ajoutez un son lorsque l'attaque touche une cible.
+  - Modifier temporairement l'opacité de la cible pour indiquer qu'elle est atteinte par l'attaque.
+  - Ajoutez des effets spéciaux (explosions, lumières, ...).
+
+[6 - Menu et Amélioration]()
