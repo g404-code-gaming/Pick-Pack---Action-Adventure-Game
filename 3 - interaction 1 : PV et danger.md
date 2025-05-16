@@ -64,4 +64,4 @@ Rajoutez un moyen visuel pour que le joueur comprenne qu’il a été blessé. P
 
 Désormais, nous avons un système de gestion de mort fontionnel ! 
 
-[4 - interactions - Partie 2]()
+[4 - interactions - Partie 2](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/4%20-%20Interaction%202%20-%20Argent.md)
