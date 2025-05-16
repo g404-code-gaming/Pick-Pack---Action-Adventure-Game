@@ -12,7 +12,7 @@ Nous allons avoir besoin de plusieurs nouvelles scènes pour construire notre me
   - Une **fenêtre des contrôles**
   - Une **fenêtre des améliorations**
 
-![image 1]()
+![image 1](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/6_menu_1.JPG)
 
 ## Menu principal 
 
@@ -20,13 +20,13 @@ Ajoutez des [objets](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main
 
 Il faut également un bouton pour quitter le jeu. 
 
-![image 2]()
+![image 2](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/6_menu_2.JPG)
 
 Concernant les évènements, le Menu principal se résume généralement comme suis : 
     - Le bouton 'EXIT' fait quitter le jeu.
     - Les autres boutons font changer de scène.
 
-![image 3]()
+![image 3](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/6_menu_3.JPG)
 
 Il est également possible de rajouter un fond d'écran, un titre, ou tout autre chose qui puisse donner vie au menu.
 
@@ -34,7 +34,7 @@ Il est également possible de rajouter un fond d'écran, un titre, ou tout autre
 
 La fenêtre des contrôles indique au joueur quelle touche utiliser pour faire les différentes actions possibles dans le jeu. 
 
-![image 4]()
+![image 4](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/6_menu_4.JPG)
 
 La seule action possible dans cette fenêtre est un **bouton de sortie** permettant de revenir au menu principal.
 
@@ -42,15 +42,15 @@ La seule action possible dans cette fenêtre est un **bouton de sortie** permett
 
 Il y aura **plusieurs niveaux** dans le jeu. Le joueur a la possibilité de choisir le niveau qu'il souhaite faire. Néanmoins, il ne peut pas choisir un niveau s'il n'a pas fait les niveaux précédents.
 
-![image 6]()
+![image 6](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/6_menu_6.JPG)
 
 Commencez par rajouter la [variable globale](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main/Variables.md) **Niveau**, qui indique le nombre de niveau réussis par le personnage. 
 
-![image 5]()
+![image 5](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/6_menu_5.JPG)
 
 Ensuite, Ajoutez les évènements permettant de lancer le niveau. pour les niveaux au dessus du premier, il faut que l'action ne fonctionne que si le joueur a un Niveau assez haut.
 
-![image 7]()
+![image 7](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/6_menu_7.JPG)
 
 Nous ajouterons l'évolution des niveaux plus tard dans le projet.
 
