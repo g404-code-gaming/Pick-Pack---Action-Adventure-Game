@@ -56,4 +56,4 @@ Nous ajouterons l'évolution des niveaux plus tard dans le projet.
 
 Une fois que les fenêtres les plus 'faciles' sont faites, nous allons pouvoir construire la fenêtre servant a améliorer le personnage.
 
-[
+[7 - Amélioration](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/7%20-%20Am%C3%A9lioration.md)
