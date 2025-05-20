@@ -32,4 +32,4 @@ Enfin, il faut ajouter l'évènement permettant de mettre à jour cette valeur.
 
 Et voilà ! Nous avons un système monétaire dans le jeu. Nous verrons plus tard à quoi nous servira l'argent que nous pouvons ramasser, et nous allons également ajouter d'autres moyens d'en obtenir.
 
-[5 - équipement et attaque](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/5%20-%20%C3%A9quipment%20et%20attaque.md)
+[5 - équipement et attaque](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/5%20-%20%C3%A9quipement%20et%20attaque.md)
