@@ -92,4 +92,4 @@ Par exemple :
   - Modifier temporairement l'opacité de la cible pour indiquer qu'elle est atteinte par l'attaque.
   - Ajoutez des effets spéciaux (explosions, lumières, ...).
 
-[6 - Menu et Amélioration]()
+[6 - Menu et Amélioration](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/6%20-%20Menu.md)
