@@ -33,7 +33,7 @@ Le but du jeu est d'atteindre cette porte.
 
 ![image 5](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/7_amelioration_5.JPG)
 
-Ajoutez le code permettant d'ouvrir la porte et de terminer le niveau. Il ne faut pas oublier de désactiver le pointeur et de mettre à jour les variables d'argent et de niveau.
+Dans le **niveau** (pas dans la scène d'amélioration), ajoutez le code permettant d'ouvrir la porte et de terminer le niveau. Il ne faut pas oublier de désactiver le pointeur et de mettre à jour les variables d'argent et de niveau.
 
 ![image 6](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/7_amelioration_6.JPG)
 
