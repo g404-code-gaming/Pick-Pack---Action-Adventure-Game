@@ -2,7 +2,7 @@
 
 Maintenant que nous avons un personnage qui évolue au fil du jeu, nous allons passer à une autre partie très intéressante d'un jeu en 3D : la création et la programmation des **ennemis**.
 
-Dans Pick&Pack, nous allons avoir ajouter deux types d'ennemis : 
+Dans Pick&Pack, nous allons ajouter deux types d'ennemis : 
   - (1) Une **Tourelle**. Elle ne bouge pas, et lorsqu'elle détecte le joueur, elle lui tire dessus. 
   - (2) Un **Personnage**. Il reste immobile tant qu'il ne détecte pas le joueur, mais dés que ce dernier approche un peu trop, le personnage se met à poursuivre le joueur.
 
