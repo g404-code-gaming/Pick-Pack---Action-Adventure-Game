@@ -41,4 +41,4 @@ Avec tout ça, nous avons désormais un Menu fonctionnel dans lequel nous pouvon
 
 Tester différentes améliorations avant de passer à la suite. 
 
-
+[8 - Ennemis](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/8%20-%20IA%20des%20ennemis.md)
