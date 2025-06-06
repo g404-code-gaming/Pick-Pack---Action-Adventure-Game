@@ -47,5 +47,5 @@ Afin de pouvoir déterminer s'il est capable ou non de poursuivre le joueur, ajo
 
 > Attention : si vous n'avez pas choisi le même personnage, vos animations n'ont peut-être pas les mêmes noms. Vous pouvez prendre connaissance des différentes animations du personnage dans ses propriétés. 
 
-Désormais, vous avez ajouter un véritable challenge au jeu grâce à des ennemis vivants pouvant vour repérer, vous attaquer ou vous poursuivre. 
+Désormais, vous avez ajouté un véritable challenge au jeu grâce à des ennemis vivants pouvant vour repérer, vous attaquer ou vous poursuivre. 
 
