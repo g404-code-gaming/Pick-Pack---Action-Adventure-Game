@@ -39,7 +39,7 @@ Ensuite, une fois que le pointeur est verouillé, il faut :
 
 à l'ajout de chaque nouvelle action, teste le jeu pour comprendre leur fonction et anticiper les erreurs potentielles. 
 
-Une fois que vous avez terminer, vous devriez avoir un personnage qui peut regarder dans toutes les directions : bravo ! 
+Une fois que vous avez terminé, vous devriez avoir un personnage qui peut regarder dans toutes les directions : bravo ! 
 
 ## Contrôle des déplacements 
 
