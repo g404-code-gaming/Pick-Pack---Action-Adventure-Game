@@ -28,7 +28,7 @@ Améliorez votre jeu de la manière qui vous semble la plus pertinente.
 
 Votre jeu est conçus pour avoir un personnage qui s'améliore au fil du temps et un menu pour sélectionner des niveaux : Il est possible de copié/collé votre scène de niveau 1 pour créer d'autres niveaux. Rajoutez de la rejouabilité et de la difficulté dans le jeu ! 
 
-![image 3](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/9_fin_3.JPG)
+![image 3](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/9_fin_3.jpg)
 
 ### sons et animations personnalisés
 
@@ -37,7 +37,7 @@ Vous pouvez personnalisé votre niveau pour avoir des visuels uniques, que vous 
 
 Vous pouvez également rajouter des animations et des sons pour rendre le jeu plus vivant. 
 
-![image 4](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/9_fin_4.JPG)
+![image 4](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/Image/9_fin_4.jpg)
 
 ### Boss
 
