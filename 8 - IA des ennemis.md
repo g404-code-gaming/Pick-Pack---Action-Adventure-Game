@@ -49,3 +49,4 @@ Afin de pouvoir déterminer s'il est capable ou non de poursuivre le joueur, ajo
 
 Désormais, vous avez ajouté un véritable challenge au jeu grâce à des ennemis vivants pouvant vour repérer, vous attaquer ou vous poursuivre. 
 
+[9 - Fin](https://github.com/g404-code-gaming/Pick-Pack---Action-Adventure-Game/blob/main/9%20-%20Fin.md) 
